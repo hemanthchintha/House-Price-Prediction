@@ -1,44 +1,31 @@
 # Project Name
-> Outline a brief description of your project.
-
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
+> Advanced Regression assignment on House price prediction
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Predict significant variable that predicting the house price
+- Finding the optimum value of lamda for Ridge and Lasso Regression
+- dataset used is 'train.csv'
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Optimum value of Ridge regression is 10
+- Optimum value of Lasso regression is 0.001
+- Significant predictors are GrLivArea,OverallQual_8, Functional_Typ,Neighborhood_Crawfor, Exterior1st_BrkFace
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- library - pandas 
+- library - sklearn
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+- Reference - upGrad
+
 
 
 ## Contact
